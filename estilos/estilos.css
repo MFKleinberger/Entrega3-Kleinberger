@@ -1,0 +1,88 @@
+
+.textoBajada {
+    font-style: italic;
+    text-align: center;
+    padding: 5px !important;
+    background-color: #73eb8b;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.navbar-brand{
+  text-shadow: 0 0 5px white;
+  letter-spacing: 2px;
+  font-style: italic;
+  padding: 5px !important;
+  margin: 5px
+}
+
+h3 {
+  background-color: #73eb8b;
+  text-shadow: 0 0 5px white;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.table{
+  font-size: 14px;
+}
+
+.card-img-top{
+  width:40% !important;
+  height: auto !important;
+}
+
+.fotoTabla{
+  height: auto;
+  width: 100px;
+}
+
+.dialogo {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+footer{
+  margin-top: 10px;
+  background-color: #73eb8b;
+  height: 80px; 
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p{
+  color: gray;
+  margin-bottom: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+
+footer a:hover{
+  color: #333;
+}
+
+.subir{
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: #73eb8b;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 0 0 5px 5px white ;
+}

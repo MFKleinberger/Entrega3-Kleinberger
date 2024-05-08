@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link bs inicia -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link bs fin -->
+
+    <!-- link cdjn awesome inicia -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link cdjn awesome fin -->
+    
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <title>Tengo - Contacto</title>
+</head>
+<body>
+    <header>
+        <!-- bajada inicia -->
+        <section class="container-fluid textoBajada">
+			<div class="row col-12">
+				<h6>¿Para qué comprar si lo podemos pedir prestado? ¿Por qué no sacarle provecho a eso que tenés guardado?</h6>
+			</div>
+        </section>
+        <!-- bajada fin -->
+
+        <!-- nav bar inicia -->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+			<div class="container-fluid">
+				<img src="../img/Logo_hands-220163_1280.jpg" class="img-thumbnail p-10 logo" alt="Logo">
+				<a class="navbar-brand" href="../index.html">Tengo!</a>
+				<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarDark">
+					<ul class="navbar-nav me-auto mb-2 mb-xl-0">
+						<li class="nav-item">
+							<a class="nav-link" href="./queEsEsto.html">¿Qué es esto?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Necesito!</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./publicar.html">Publicar</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./miPanol.html">Mi Pañol</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./contacto.html">Contacto</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Necesito!" aria-label="Search">
+						<button class="btn btn-outline-light" type="submit">Nececito!</button>
+					</form>
+				</div>
+			</div>
+        </nav>
+        <!-- nav bar fin -->      
+    </header>
+
+	<main>
+		<h3 class="separador container-fluid col-12">Formulario de contacto</h3>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 g-3">
+					<form>
+						<div class="form-group mb-3">
+							<input type="text" class="form-control mb-3" id="nombre" placeholder="Nombre">
+						</div>
+						<div class="form-group mb-3">
+							<input type="text" class="form-control mb-3" id="apellido" placeholder="Apellido">
+						</div>
+						<div class="form-group mb-3">
+							<input type="email" class="form-control mb-3" id="email" placeholder="Correo electrónico">
+						</div>
+						<div class="form-group mb-3">
+							<textarea class="form-control" id="comentario" rows="3" maxlength="300" placeholder="Escriba su comentario aquí (máximo 300 caracteres)"></textarea>
+						</div>
+						<button type="reset" class="btn btn-secondary text-white me-2" onclick="limpiarFormulario()">Borrar</button>
+						<button type="submit" class="btn btn-primary text-white">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+    <footer>
+        <p>Todos los derechos reservados por copyright</p>
+        <div class="redes">
+            <a href="">
+                <i class="fa-brands fa-instagram">  </i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp">  </i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-x-twitter">  </i>
+            </a>
+        </div>
+    </footer>
+    <a href="#" class="subir">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    
+    <!-- cierre bs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
