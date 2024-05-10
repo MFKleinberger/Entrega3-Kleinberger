@@ -1,42 +1,57 @@
+body {
+  font-family: Roboto;
+}
 
 .textoBajada {
-    font-style: italic;
-    text-align: center;
-    padding: 5px !important;
-    background-color: #73eb8b;
+  background-color: #254d32;
+}
+.textoBajada row {
+  margin-bottom: 4px !important;
+}
+.textoBajada p {
+  margin-bottom: 4px !important;
+  color: #fffded;
+  padding: 5px;
+  font-style: italic;
+  text-align: center;
+  font-size: calc 12px !important;
 }
 
-.logo {
-    height: 60px;
-    width: auto;
+nav .logo {
+  height: 60px;
+  width: auto;
 }
-
-.navbar-brand{
-  text-shadow: 0 0 5px white;
+nav .navbar-brand {
+  text-shadow: 0 0 5px #fffded;
   letter-spacing: 2px;
   font-style: italic;
   padding: 5px !important;
-  margin: 5px
+  margin: 5px;
+  font-size: calc 16px !important;
 }
 
-h3 {
-  background-color: #73eb8b;
-  text-shadow: 0 0 5px white;
-  font-size: 15px;
+h1 {
+  background-color: #5fad56;
+  color: #fffded;
+  text-shadow: 0 0 5px #181d27;
+  font-size: calc 16px !important;
   padding: 5px;
   margin: 0px;
 }
 
-.table{
+.product-list {
+  margin-top: 20px;
+}
+.product-list .card-img-top {
+  max-height: 180px;
+  width: auto;
+  padding-top: 10px;
+}
+
+.table {
   font-size: 14px;
 }
-
-.card-img-top{
-  width:40% !important;
-  height: auto !important;
-}
-
-.fotoTabla{
+.table .fotoTabla {
   height: auto;
   width: 100px;
 }
@@ -46,36 +61,33 @@ h3 {
   margin-right: 15px;
 }
 
-footer{
+footer {
   margin-top: 10px;
-  background-color: #73eb8b;
-  height: 80px; 
+  background-color: #5fad56;
+  height: 80px;
   font-size: 10px;
   text-align: center;
   padding: 20px;
 }
-
-footer p{
-  color: gray;
+footer p {
+  color: #fffded;
   margin-bottom: 10px;
 }
-
-footer a{
+footer .redes a {
   text-decoration: none;
-  color: gray;
+  color: #fffded;
   font-size: 20px;
   letter-spacing: 20px;
 }
-
-footer a:hover{
-  color: #333;
+footer .redes a:hover {
+  color: #181d27;
 }
 
-.subir{
+.subir {
   height: 30px;
   width: 30px;
-  color: white;
-  background-color: #73eb8b;
+  color: #fffded;
+  background-color: #5fad56;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -84,5 +96,7 @@ footer a:hover{
   align-content: center;
   font-weight: bold;
   font-size: 25px;
-  box-shadow: 0 0 5px 5px white ;
+  box-shadow: 0 0 5px 5px #fffded;
 }
+
+/*# sourceMappingURL=estilos.css.map */
