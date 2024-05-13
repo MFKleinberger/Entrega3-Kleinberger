@@ -6,3 +6,9 @@
         @extend button
     }
 }
+
+.dropdown{
+    ul{
+        transition: 1s;
+    }
+}
