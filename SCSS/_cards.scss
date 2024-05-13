@@ -1,0 +1,21 @@
+.product-list{
+    margin-top: 20px;
+
+    .card-img-top{
+        max-height: 180px;
+        width: auto;
+        padding-top: 10px;
+    }
+
+    h2{
+        font-size: calc($font2*.8);
+    }
+
+    .card-text{
+        font-size: calc($font2*.6);
+    }
+
+    span{
+        font-size: calc($font2*.7);
+    }
+}

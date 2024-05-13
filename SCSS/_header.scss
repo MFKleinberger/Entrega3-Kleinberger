@@ -1,0 +1,42 @@
+
+.textoBajada {
+    background-color: $color2;
+            row{
+                margin-bottom: 4px !important;
+            }
+                p{
+                    margin-bottom: 4px !important;
+                    color: $color4;
+                    padding: 5px;
+                    font-style: italic;
+                    text-align: center;
+                    font-size: calc($font2*0.6) !important;   
+                }
+}
+
+nav{
+
+    .logo {
+        height: 60px;
+        width: auto;
+    }
+
+    .navbar-brand{
+        text-shadow: 0 0 5px $color4;
+        letter-spacing: 2px;
+        font-style: italic;
+        padding: 5px !important;
+        margin: 5px;
+        font-size: calc($font2*0.8) !important;
+    }
+}
+
+h1{
+    background-color: $color1;
+    color: $color4;
+    text-shadow: 0 0 5px $color3;
+    font-size: calc($font2*0.8) !important;
+    padding: 5px;
+    margin: 0px;
+    text-shadow: 5px 5px 5px $color3;
+}

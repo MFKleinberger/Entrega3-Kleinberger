@@ -1,0 +1,8 @@
+.filter{
+    button{
+    font-size: calc($font2*.6) !important;
+    }
+    a{
+        @extend button
+    }
+}

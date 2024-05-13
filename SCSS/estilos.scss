@@ -3,7 +3,7 @@ $color1: #5fad56ff; //mantis (verde claro)
 $color2: #254d32ff; //cal-poly-green (verde oscuro
 $color3: #181d27ff; //raisin-black (negro)
 $color4: #fffdedff; //ivory (blanco)
-$color5: #e0d8deff; //lavender-blush (gris)
+$color5: #a4ada5; // (gris- verdoso)
 $font1: Roboto;
 $font2: 20px;
 
@@ -11,113 +11,11 @@ body{
     font-family: $font1;
 }
 
-.textoBajada {
-    background-color: $color2;
-            row{
-                margin-bottom: 4px !important;
-            }
-                p{
-                    margin-bottom: 4px !important;
-                    color: $color4;
-                    padding: 5px;
-                    font-style: italic;
-                    text-align: center;
-                    font-size: calc ($font2*0.6) !important;   
-                }
-}
-
-nav{
-
-    .logo {
-        height: 60px;
-        width: auto;
-    }
-
-    .navbar-brand{
-        text-shadow: 0 0 5px $color4;
-        letter-spacing: 2px;
-        font-style: italic;
-        padding: 5px !important;
-        margin: 5px;
-        font-size: calc ($font2*0.8) !important;
-    }
-}
-
-h1{
-    background-color: $color1;
-    color: $color4;
-    text-shadow: 0 0 5px $color3;
-    font-size: calc ($font2*0.8) !important;
-    padding: 5px;
-    margin: 0px;
-}
-
-.product-list{
-    margin-top: 20px;
-
-    .card-img-top{
-        max-height: 180px;
-        width: auto;
-        padding-top: 10px;
-    }
-
-}
-
-.table{
-    font-size: 14px;
-
-    .fotoTabla{
-        height: auto;
-        width: 100px;
-    }
-    
-}
-
-.dialogo {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-footer{
-    margin-top: 10px;
-    background-color: $color1;
-    height: 80px; 
-    font-size: 10px;
-    text-align: center;
-    padding: 20px;
-
-    p{
-        color: $color4;
-        margin-bottom: 10px;
-    }
-
-    .redes{
-        a{
-            text-decoration: none;
-            color: $color4;
-            font-size: 20px;
-            letter-spacing: 20px;
-
-            &:hover{
-                color: $color3; 
-                // no está funcionando. Revisar!
-            }
-        }
-    }
-}
-
-.subir{
-    height: 30px;
-    width: 30px;
-    color: $color4;
-    background-color: $color1;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 50%;
-    text-align: center;
-    align-content: center;
-    font-weight: bold;
-    font-size: 25px;
-    box-shadow: 0 0 5px 5px $color4;
-}
+@import "header";
+@import "filters";
+@import "cards";
+@import "form";
+@import "tablaPanol";
+@import "carousel";
+@import "footer";
+@import "gototop";

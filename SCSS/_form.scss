@@ -1,0 +1,11 @@
+input {
+    font-size: calc($font2*0.6) !important;
+    }
+
+textarea{
+    @extend input;
+}
+
+select{
+    @extend input;
+}

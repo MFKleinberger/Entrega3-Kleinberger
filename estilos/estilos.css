@@ -14,7 +14,7 @@ body {
   padding: 5px;
   font-style: italic;
   text-align: center;
-  font-size: calc 12px !important;
+  font-size: 12px !important;
 }
 
 nav .logo {
@@ -27,18 +27,22 @@ nav .navbar-brand {
   font-style: italic;
   padding: 5px !important;
   margin: 5px;
-  font-size: calc 16px !important;
+  font-size: 16px !important;
 }
 
 h1 {
   background-color: #5fad56;
   color: #fffded;
   text-shadow: 0 0 5px #181d27;
-  font-size: calc 16px !important;
+  font-size: 16px !important;
   padding: 5px;
   margin: 0px;
+  text-shadow: 5px 5px 5px #181d27;
 }
 
+.filter button, .filter a {
+  font-size: 12px !important;
+}
 .product-list {
   margin-top: 20px;
 }
@@ -47,9 +51,22 @@ h1 {
   width: auto;
   padding-top: 10px;
 }
+.product-list h2 {
+  font-size: 16px;
+}
+.product-list .card-text {
+  font-size: 12px;
+}
+.product-list span {
+  font-size: 14px;
+}
+
+input, select, textarea {
+  font-size: 12px !important;
+}
 
 .table {
-  font-size: 14px;
+  font-size: 12px;
 }
 .table .fotoTabla {
   height: auto;
@@ -79,8 +96,8 @@ footer .redes a {
   font-size: 20px;
   letter-spacing: 20px;
 }
-footer .redes a:hover {
-  color: #181d27;
+footer .redes a i:hover {
+  color: #254d32 !important;
 }
 
 .subir {
@@ -95,8 +112,8 @@ footer .redes a:hover {
   text-align: center;
   align-content: center;
   font-weight: bold;
-  font-size: 25px;
-  box-shadow: 0 0 5px 5px #fffded;
+  font-size: 20px;
+  box-shadow: 0 0 5px 5px #a4ada5;
 }
 
 /*# sourceMappingURL=estilos.css.map */
