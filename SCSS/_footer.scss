@@ -12,16 +12,14 @@ footer{
     }
 
     .redes{
-        a {
+        a{
             text-decoration: none;
             color: $color4;
             font-size: $font2;
             letter-spacing: 20px;
 
-            i {
-                &:hover {
-                    color: $color2 !important; 
-                }
+            &:hover{
+                color: $color2 !important; 
             }
         }
     }

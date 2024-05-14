@@ -1,0 +1,9 @@
+Actividades para mejorar SOE:
+
+* Transformé h3 en h1 en todas las páginas
+* Transformé h5 en h2 en todas las páginas
+* Transformé h6 en h3 en todas las páginas
+* Optimicé todas las imágenes con resizepixel.com
+* Agregué meta descripción y keywords a cada página
+* Eliminé espacios innecesarios. Dejé aquellos que creo que ayudan a la lectura y a separar partes importantes.
+* Agregué Breadcrumbs en las 4 páginas (no en index)

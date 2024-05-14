@@ -1,7 +1,0 @@
-Actividades para mejorar SOE:
-
-
-
-* Transformé h3 en h1 en todas las páginas
-* Transformé h5 en h2 en todas las páginas
-* Transformé h6 en h3 en todas las páginas

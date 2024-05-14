@@ -114,7 +114,7 @@ footer .redes a {
   font-size: 20px;
   letter-spacing: 20px;
 }
-footer .redes a i:hover {
+footer .redes a:hover {
   color: #254d32 !important;
 }
 
@@ -132,6 +132,11 @@ footer .redes a i:hover {
   font-weight: bold;
   font-size: 20px;
   box-shadow: 0 0 5px 5px #a4ada5;
+}
+
+.breadcrumb {
+  margin: 5px;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
